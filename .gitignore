@@ -1,0 +1,42 @@
+# 環境変数・APIキー（絶対にコミットしない）
+.env
+.env.local
+.env.*.local
+
+# Django
+*.pyc
+__pycache__/
+*.pyo
+db.sqlite3
+/staticfiles/
+/mediafiles/
+/media/
+
+# Python
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# 仮想環境
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+
+# Render / デプロイ設定（必要なら削除）
+# render.yaml は含めておくのが一般的
